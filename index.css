@@ -1,7 +1,7 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    background-color:#333333;
-    color:#fafafa;
+    background-color: #333333;
+    color: #fafafa;
 }
 
 .side-nav {
@@ -17,45 +17,48 @@ body{
     color: #fafafa;
 }
 
-.side-nav p{
-    font-size:13px;
+.side-nav p {
+    font-size: 13px;
 }
+
 .side-nav a {
     padding-top: 8px;
     padding-bottom: 8px;
     text-decoration: none;
     display: block;
     color: #fafafa;
-    font-size:13px;
-}
-.side-nav i{
-    margin-right:5%;
-    font-size:13px;
+    font-size: 13px;
 }
 
-.side-nav .logo-icon{
-    font-size:25px;
-    color:#c4302b;
+.side-nav i {
+    margin-right: 5%;
+    font-size: 13px;
 }
 
-.side-nav button{
+.side-nav .logo-icon {
+    font-size: 25px;
+    color: #c4302b;
+}
+
+.side-nav button {
     height: 50px;
-    width:200px;
+    width: 200px;
     border-radius: 15px;
-    font-size:15px;
-    background-color:#c4302b;
-    border:none;
-    color:#fafafa;
+    font-size: 15px;
+    background-color: #c4302b;
+    border: none;
+    color: #fafafa;
     cursor: pointer;
-    outline:none;
-    margin-top:35%;
-    margin-left:5%;
-    
+    outline: none;
+    margin-top: 35%;
+    margin-left: 5%;
+
 }
 
-.side-nav button:active{
+.side-nav button:active {
     transform: translateY(2px);
 }
+
 .video-content {
     margin-left: 282px;
     padding: 20px;
@@ -75,7 +78,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 17px;
-    margin-right:5%;
+    margin-right: 5%;
 }
 
 /* Style the input container */
@@ -90,24 +93,27 @@ body{
     margin-top: 8px;
     font-size: 17px;
     border: none;
-    width:400px;;
+    width: 400px;
+    ;
     border-bottom: 2px solid #757575;
-    background:transparent;
+    background: transparent;
     font-size: 18px;
     color: #fafafa;
 }
-.topnav .search-container i{
-    font-size:25px;
-    color:#757575;
-    margin-right:5px;
+
+.topnav .search-container i {
+    font-size: 25px;
+    color: #757575;
+    margin-right: 5px;
 }
 
-input:active, input:focus {
+input:active,
+input:focus {
     outline: none;
 }
 
-.topnav img{
-    margin-left:5px;
+.topnav img {
+    margin-left: 5px;
 }
 
 .user {
@@ -159,122 +165,124 @@ input:active, input:focus {
     margin-left: 45px;
     font-size: 10px;
     color: grey;
-    float:right;
-    margin-top:8%;
+    float: right;
+    margin-top: 8%;
 }
 
-.channel-card{
+.channel-card {
     height: 520px;
-    width:500px;
-    padding-top:10px;
+    width: 500px;
+    padding-top: 10px;
     border-radius: 10px;
 }
 
-.channel{
+.channel {
     height: 70px;
-    width:490;
-    margin-left:5px;
-    background-color:#333333;
+    width: 490;
+    margin-left: 5px;
+    background-color: #333333;
     transition: 0.5s;
     border-radius: 10px;
-    opacity:0.8;
-    transform:scale(1);
+    opacity: 0.8;
+    transform: scale(1);
 }
 
-.channel:hover{
-    transform:scale(1.08);
+.channel:hover {
+    transform: scale(1.08);
 }
 
-.channel button:hover{
+.channel button:hover {
     cursor: pointer;
 }
 
-.channel-card hr{
-    width:70%;
+.channel-card hr {
+    width: 70%;
 }
 
-.channel-logo{
+.channel-logo {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left:5%;
-    margin-top:2.3%;
-    margin-right:3%;
+    margin-left: 5%;
+    margin-top: 2.3%;
+    margin-right: 3%;
 }
 
-.channel p{
-    display:inline;
+.channel p {
+    display: inline;
     vertical-align: 20px;
-    font-size:12px;
-    color:#fafafa;
+    font-size: 12px;
+    color: #fafafa;
 }
 
-.channel button{
+.channel button {
     float: right;
-    margin:5%;
-    background-color:#c4302b;
-    outline:none;
-    border:none;
-    color:#fafafa;
-    height:25px;
-    width:100px;
-    border-radius:5px;
+    margin: 5%;
+    background-color: #c4302b;
+    outline: none;
+    border: none;
+    color: #fafafa;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
 
 }
-video#main-video{
+
+video#main-video {
     display: block;
-    width:80%;
+    width: 80%;
     height: 500px;
-    margin:20px auto;
-    padding:10px;
-    border-radius:15px;
-    outline:none;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
 }
 
-.video-player{
-    background-color:#333333;
-    padding:10px;
-    border-radius:10px;
+.video-player {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.video-title{
-    color:#fafafa;
-    margin-left:10%;
+.video-title {
+    color: #fafafa;
+    margin-left: 10%;
 }
 
-.video-channel img{
-    margin-left:10%;
-    margin-right:1%;
-    margin-top:0;
+.video-channel img {
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-top: 0;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
 
 }
-.video-channel p{
-    display:inline;
+
+.video-channel p {
+    display: inline;
     vertical-align: 20px;
-    color:#fafafa;
-    font-size:13px;
+    color: #fafafa;
+    font-size: 13px;
 
 }
 
-.video-channel button{
-    float:right;
-    margin-right:10%;
-    margin-top:1%;
+.video-channel button {
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
     height: 30px;
-    width:100px;
-    border-radius:10px;
-    outline:none;
-    background-color:#c4302b;
-    border:none;
-    color:#fafafa;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #c4302b;
+    border: none;
+    color: #fafafa;
     cursor: pointer;
 }
 
-.video-channel button:active{
+.video-channel button:active {
     transform: translateY(2px);
 }
 
@@ -285,7 +293,7 @@ video#main-video{
     margin-top: 25px;
 }
 
-.playlist-card{
+.playlist-card {
     background-image: url('./images/closer.jpg');
     width: 250px;
     height: 140px;
@@ -309,3 +317,18 @@ video#main-video{
     align-items: center;
 }
 
+.pagination {
+    display: inline-block;
+    
+}
+.center{
+    text-align: center;
+    margin-bottom:5%;
+}
+
+.pagination a {
+    color: #c4302b;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align:center;
+}
